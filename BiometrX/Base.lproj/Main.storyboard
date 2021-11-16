@@ -61,6 +61,16 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8jd-G7-sy1">
+                                <rect key="frame" x="157" y="254" width="100" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="7ts-id-1k2"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="vh7-pI-pb2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -68,10 +78,12 @@
                             <constraint firstItem="fv6-3a-RKb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="91" id="4Nh-cY-D2F"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pvB-70-QoR" secondAttribute="trailing" constant="91" id="9r2-Bx-RDc"/>
                             <constraint firstItem="pvB-70-QoR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="91" id="GhK-Ya-ky0"/>
+                            <constraint firstItem="8jd-G7-sy1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hqu-3u-wwj"/>
                             <constraint firstItem="vCj-Pb-B4f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="91" id="Hxe-uV-Ndu"/>
                             <constraint firstItem="pvB-70-QoR" firstAttribute="top" secondItem="vCj-Pb-B4f" secondAttribute="bottom" constant="8.5" id="IxD-Dd-mF0"/>
                             <constraint firstItem="fv6-3a-RKb" firstAttribute="top" secondItem="pvB-70-QoR" secondAttribute="bottom" constant="21" id="JLv-EB-rEQ"/>
                             <constraint firstItem="bMg-Ro-sVf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="33" id="KNH-4W-5s7"/>
+                            <constraint firstItem="vCj-Pb-B4f" firstAttribute="top" secondItem="8jd-G7-sy1" secondAttribute="bottom" constant="48" id="Q6z-Me-G2l"/>
                             <constraint firstItem="bMg-Ro-sVf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aMx-Ed-ETA"/>
                             <constraint firstItem="fv6-3a-RKb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gPH-wt-LLC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vCj-Pb-B4f" secondAttribute="trailing" constant="91" id="rp1-qC-4Vh"/>
@@ -84,6 +96,7 @@
                         <outlet property="biometricsButton" destination="fv6-3a-RKb" id="3hx-iU-8gN"/>
                         <outlet property="pinLabel" destination="vCj-Pb-B4f" id="0oi-Nh-OeL"/>
                         <outlet property="signInButton" destination="pvB-70-QoR" id="gFZ-h0-XkN"/>
+                        <outlet property="statusLabel" destination="8jd-G7-sy1" id="ZDe-3q-WCh"/>
                         <outlet property="welcomeLabel" destination="bMg-Ro-sVf" id="fMO-yl-PVE"/>
                     </connections>
                 </viewController>

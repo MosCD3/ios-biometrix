@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		321DE754273DD11A004B393A /* StorgeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321DE753273DD11A004B393A /* StorgeService.swift */; };
+		321DE756273DDC4A004B393A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321DE755273DDC4A004B393A /* Constants.swift */; };
 		324106C927376B8100F38F30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324106C827376B8100F38F30 /* AppDelegate.swift */; };
 		324106D027376B8100F38F30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 324106CE27376B8100F38F30 /* Main.storyboard */; };
 		324106D227376B8200F38F30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324106D127376B8200F38F30 /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		321DE753273DD11A004B393A /* StorgeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorgeService.swift; sourceTree = "<group>"; };
+		321DE755273DDC4A004B393A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		324106C527376B8100F38F30 /* BiometrX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiometrX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		324106C827376B8100F38F30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		324106CF27376B8100F38F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -80,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		321DE752273DD10B004B393A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				321DE753273DD11A004B393A /* StorgeService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		324106BC27376B8100F38F30 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +115,7 @@
 		324106C727376B8100F38F30 /* BiometrX */ = {
 			isa = PBXGroup;
 			children = (
+				321DE752273DD10B004B393A /* Services */,
 				3241073A27389AC800F38F30 /* Models */,
 				324106C827376B8100F38F30 /* AppDelegate.swift */,
 				324106CE27376B8100F38F30 /* Main.storyboard */,
@@ -137,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				3241073B27389AE900F38F30 /* Models.swift */,
+				321DE755273DDC4A004B393A /* Constants.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -276,7 +290,9 @@
 				324107352737723400F38F30 /* WelcomeViewController.swift in Sources */,
 				324107392738970E00F38F30 /* KeyStore.swift in Sources */,
 				324106C927376B8100F38F30 /* AppDelegate.swift in Sources */,
+				321DE756273DDC4A004B393A /* Constants.swift in Sources */,
 				3241073C27389AE900F38F30 /* Models.swift in Sources */,
+				321DE754273DD11A004B393A /* StorgeService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

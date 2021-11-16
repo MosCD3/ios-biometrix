@@ -28,10 +28,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func checkFirstLaunch() {
-        let hasAlreadyLaunched = UserDefaults.standard.bool(forKey: "hasAlreadyLaunched")
-        guard hasAlreadyLaunched else {
+        let appAlreadyLaunched = UserDefaults.standard.bool(forKey: KEY_APP_ALREADYLAUNCHED)
+        guard appAlreadyLaunched else {
             print("App first Launch")
-            UserDefaults.standard.set(true, forKey: "hasAlreadyLaunched")
+            UserDefaults.standard.set(true, forKey: KEY_APP_ALREADYLAUNCHED)
             isFirsLaunch = true;
             
             //wipe out keychain
