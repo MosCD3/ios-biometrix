@@ -20,6 +20,7 @@
 		324107392738970E00F38F30 /* KeyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324107382738970E00F38F30 /* KeyStore.swift */; };
 		3241073C27389AE900F38F30 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3241073B27389AE900F38F30 /* Models.swift */; };
 		3241073E2738D2D800F38F30 /* AfterLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3241073D2738D2D800F38F30 /* AfterLoginViewController.swift */; };
+		4662CCB827476D8C0037EC12 /* PhoneSecurityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4662CCB727476D8C0037EC12 /* PhoneSecurityService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		324107382738970E00F38F30 /* KeyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStore.swift; sourceTree = "<group>"; };
 		3241073B27389AE900F38F30 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		3241073D2738D2D800F38F30 /* AfterLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterLoginViewController.swift; sourceTree = "<group>"; };
+		4662CCB727476D8C0037EC12 /* PhoneSecurityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneSecurityService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +89,9 @@
 		321DE752273DD10B004B393A /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				324107382738970E00F38F30 /* KeyStore.swift */,
 				321DE753273DD11A004B393A /* StorgeService.swift */,
+				4662CCB727476D8C0037EC12 /* PhoneSecurityService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -123,7 +127,6 @@
 				324106D327376B8200F38F30 /* LaunchScreen.storyboard */,
 				324106D627376B8200F38F30 /* Info.plist */,
 				324107342737723400F38F30 /* WelcomeViewController.swift */,
-				324107382738970E00F38F30 /* KeyStore.swift */,
 				3241073D2738D2D800F38F30 /* AfterLoginViewController.swift */,
 			);
 			path = BiometrX;
@@ -286,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4662CCB827476D8C0037EC12 /* PhoneSecurityService.swift in Sources */,
 				3241073E2738D2D800F38F30 /* AfterLoginViewController.swift in Sources */,
 				324107352737723400F38F30 /* WelcomeViewController.swift in Sources */,
 				324107392738970E00F38F30 /* KeyStore.swift in Sources */,
@@ -471,7 +475,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3X285QVJK4;
+				DEVELOPMENT_TEAM = Q93546VNN4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BiometrX/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

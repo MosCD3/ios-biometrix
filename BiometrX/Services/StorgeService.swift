@@ -18,7 +18,7 @@ class StorgeService {
     static let maxCompLog_Size = 1000000
     static let maxLogItem_Size = 50000
     
-    func saveData(key: String, object: Any) {
+    func saveData(key: String, object: Any?) {
        
         print("Called to save data for key:\(key)")
         //checking size of defaults object
